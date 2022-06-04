@@ -1,0 +1,17 @@
+{
+  "dependencies": {
+    "express": "^4.18.1",
+    "nodemon": "^2.0.16",
+    "socket-io": "^1.0.0",
+    "socket.io": "^4.5.1"
+  },
+  "scripts": {
+    "start": "node server.js"
+  },
+  "name": "server",
+  "version": "1.0.0",
+  "main": "server.js",
+  "author": "ahmadswalih",
+  "license": "ISC",
+  "description": ""
+}
