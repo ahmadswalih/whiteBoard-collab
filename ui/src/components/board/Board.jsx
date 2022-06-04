@@ -2,6 +2,8 @@ import React, { Component } from "react";
 import "./Board.css";
 
 export default class Board extends Component {
+  
+  timeout;
   constructor(props) {
     super(props);
   }
