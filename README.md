@@ -1,2 +1,4 @@
 # whiteBoard-collab
-This is a multi-User White Board Website.
+This is a web based  White Board Website.
+
+#### currently in production 
