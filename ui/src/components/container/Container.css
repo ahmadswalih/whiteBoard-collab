@@ -1,16 +1,49 @@
-.container{
-position: fixed;
-width: 100%;
-height: 100%;
-background: black;
+.container {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(45deg, #03A9F4, #4CAF50);
 }
-.color-picker-container{
+
+.color-picker-container {
     text-align: center;
+    display: inline;
+    color: white;
+    font-size: 30px;
+
+    
 }
-.board-container{
+
+
+.brushsize-container {
+    display: inline;
+    color: white;
+    margin-left: 12px;
+    font-size: 30px;
+
+    
+}
+.brushsize-container select{
+    font-size: 21px;
+}
+.tools-section {
+    text-align: center;
+    font-size: 43rem;
+}
+
+.board-container {
     width: 90%;
     height: 90%;
     margin: auto;
     margin-top: 1%;
     background: white;
 }
+@media only screen and (max-width: 600px) {
+    .color-picker-container{
+        font-size: 20px;
+    }
+    .brushsize-container{
+        font-size: 20px;
+        text-align: center;
+    }
+  }
